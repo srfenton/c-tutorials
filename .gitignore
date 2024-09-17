@@ -1,0 +1,34 @@
+# Ignore build directories and output binaries
+bin/
+obj/
+*.exe
+*.out
+*.o
+*.a
+*.dSYM.pkgf
+
+# Ignore temporary files from IDEs and editors
+*.depend
+*.layout
+*.cbp
+*.swp
+*~
+
+# Ignore Xcode-specific files
+*.xcuserdatad
+*.xcworkspace
+*.xcodeproj/
+*.DS_Store
+
+# Ignore compiled binary
+tutorial
+
+# Ignore other temporary/backup files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Ignore system files
+Thumbs.db
+
